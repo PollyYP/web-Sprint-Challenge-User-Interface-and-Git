@@ -56,6 +56,28 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+nav.head-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 2% 20% 2% 20%;
+}
+
+nav.head-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.image1 {
+    margin-left: 23%;
+    margin-bottom: 2%;
+}
+
+li a {
+    text-decoration: none;
+    padding-right: 3%;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -101,15 +123,114 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 
 .bottom-content {
@@ -126,13 +247,12 @@ p {
     padding-right: 0;
 }
 
-footer {
+footer.footer-home {
     width: 100%;
-    background: black;
+    background: black;  
 }
 
-footer nav {
-    width: 60%;
+footer.footer-home nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -140,7 +260,81 @@ footer nav {
     font-size: 14px;
 }
 
-footer nav a {
+footer.footer-home nav a {
+    color: white;
+    text-decoration: none;
+}
+
+div.container-about-page hr {
+    border: none;
+    border-top: 2px dotted black;
+    color:#fff;
+    background-color:#fff;
+    height:1px;
+    width:55%;
+  }
+
+div.container-about-page section.about-text {
+    margin: 2% 23% 2% 23%;
+}
+
+section.container-about-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+div.about-flex1 {
+    margin: 3%;
+}
+
+div.about-flex2 {
+    margin: 3%;
+}
+
+div.about-flex3 {
+    margin: 3%;
+}
+
+div.about-flex4 {
+    margin: 3%;
+}
+  
+section.container-about-flex button {
+    border-radius: 5px;
+    margin-top: 5%;
+    padding: 1%;
+}
+
+section.container-about-flex hr {
+    margin-top: 10%;
+    width: 100%;
+}
+
+div.about-text2 {
+    margin-left: 23%;
+    margin-right: 23%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+footer.footer-about {
+    background: black;
+    margin-left: 22%;
+    margin-right: 20%;
+}
+
+footer.footer-about nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer.footer-about nav a {
     color: white;
     text-decoration: none;
 }
